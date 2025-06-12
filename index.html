@@ -407,11 +407,14 @@
                 flex: 1 0 100%;
             }
             
-            .profile-photo {
-                width: 150px;
-                height: 150px;
-            }
-            
+            .profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}   
             h1 {
                 font-size: 1.8rem;
             }
@@ -420,7 +423,9 @@
 </head>
 <body>
     <header>
- <img src="profile.jpg" alt="Onke Mdyogolo" class="profile-photo">
+<div class="profile-photo">
+    <img src="profile.JPG" alt="Onke Shadrack Mdyogolo">
+</div>
             <div class="header-text">
                 <h1>Onke Shadrack Mdyogolo</h1>
                 <h2>IT Support Specialist | Microsoft Azure AI Associate | Network & Systems Support | Troubleshooting Expert | CAPACITI IT Support | Eagerness To Learn</h2>
@@ -561,8 +566,7 @@
 
     <footer>
         <div class="social-links">
-            <a href="www.linkedin.com/in/onke-mdyogolo-a24617160" class="social-link" target="_blank">
-    <i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.linkedin.com/in/onke-mdyogolo-a24617160" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a>
             <a href="#" class="social-link"><i class="fab fa-github"></i></a>
             <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
             <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
